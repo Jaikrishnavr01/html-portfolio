@@ -15,9 +15,7 @@
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <a href="#testimonial">Testimonial</a>
             <a href="#contact">Contact</a>
-            </ul>
         </nav>
     </header>
 
@@ -28,17 +26,16 @@
             </div>
             <div class="home-content">
                 <h1>Hi, I'm Jai krishna </h1>
-                <h3>Full stack Web Developer</h3>
+                <h3>Full Stack Web Developer</h3>
                 <p>
 
                     Full-stack web development involves creating both front-end and back-end components, enabling
                     developers to seamlessly work on server-side and client-side aspects. I know HTML, CSS, JavaScript,
                     and React.js.</p>
 
-                <Button class="Downloadcv">Download CV</Button>
+                <Button class="Downloadcv"><a href="/jaikrishna Resum.pdf" download="">Download cv</a></Button>
             </div>
         </div>
-
         <div id="about">
             <h1 class="abouthead">About me</h1>
             <p class="aboutp1">
@@ -55,24 +52,66 @@
                 expertise with a user-centric focus.
             </p>
 
-            <h1 id="skillsheading"> Skills</h1>
-
-            <div class="skill"> 
-                <div > HTML</div>
-                <div > CSS</div>
-                <div > JavaScript</div>
-                <div > React Js</div>
-                <div > Mysql</div>
-                <div > MongoDB</div>
-           
-
-            </div>
-           
         </div>
-
-        <div id="services"> services</div>
-        <div id="testimonial"> testimonial</div>
-        <div id="contact"> contact</div>
+        <div id="services">
+            <h1 class="services-title">Services We Offer</h1>
+            <ul>
+                <li>
+                    <h2>Create a Services Page</h2>
+                    <ol>
+                        <li>Create a Services Page - Design a dedicated page on your website to showcase your services.
+                        </li>
+                        <li>Use clear headings, concise descriptions, and possibly visual elements to explain each
+                            service.</li>
+                    </ol>
+                </li>
+                <li>
+                    <h2>Service Offerings</h2>
+                    <ul>
+                        <li>Clearly list and describe each service you offer.</li>
+                        <ol>
+                            <li>
+                                <h4>Frontend Development</h4>
+                            </li>
+                            <ol>
+                                <li>ReactJS Development</li>
+                                <li>HTML, CSS, JavaScript</li>
+                                <li>Responsive Web Design</li>
+                            </ol>
+                            <li>
+                                <h4>Backend Development</h4>
+                            </li>
+                            <ol>
+                                <li>Node.js and Express.js </li>
+                                <li>Database Management (MySQL, MongoDB)</li>
+                                <li>API Development (RESTful, GraphQL)</li>
+                            </ol>
+                        </ol>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="contact">
+            <h1>Lets connect</h1>
+            <fieldset>
+                <legend id="fd">Contact us</legend>
+                <div>
+                    <label for="name" id="namw">name</label>
+                    <input type="text" name="name" placeholder="enter your name">
+                </div>
+                <br>
+                <div>
+                    <label for="Email" id="Email">Email</label><br>
+                    <input type="email" name="email" placeholder="Enter your email" /><br>
+                </div>
+                <br>
+                <div>
+                    <textarea name="about" cols="30" rows="5" placeholder="Message..."></textarea>
+                </div>
+            </fieldset>
+            <br>
+            <input type="button" value="Submit" id="button">
+        </div>
 
 
     </section>
